@@ -1,0 +1,100 @@
+Language model created by QuickLM on Wed Nov 29 07:48:50 EST 2017
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 9 sentences and 19 words
+
+\data\
+ngram 1=19
+ngram 2=33
+ngram 3=25
+
+\1-grams:
+-0.9902 </s> -0.3010
+-0.9902 <s> -0.2316
+-1.9445 AROUND -0.2542
+-1.6435 BAD -0.2316
+-1.9445 CHRISTMAS -0.2961
+-1.9445 DAYS -0.2961
+-1.6435 GOOD -0.2316
+-1.6435 HOW -0.2910
+-1.9445 LIGHT -0.2961
+-1.6435 MANY -0.2910
+-1.6435 NAUGHTY -0.2316
+-1.6435 NICE -0.2316
+-1.9445 OH -0.2961
+-1.3424 OR -0.2596
+-1.9445 PRESENTS -0.2542
+-1.9445 ROCK -0.2961
+-1.9445 TREE -0.2542
+-1.9445 UNTIL -0.2542
+-1.9445 UP -0.2542
+
+\2-grams:
+-1.2553 <s> BAD -0.1761
+-1.2553 <s> GOOD -0.1761
+-0.9542 <s> HOW 0.0000
+-1.2553 <s> LIGHT 0.0000
+-1.2553 <s> NAUGHTY -0.1761
+-1.2553 <s> NICE -0.1761
+-1.2553 <s> OH 0.0000
+-1.2553 <s> ROCK 0.0000
+-0.3010 AROUND </s> -0.3010
+-0.6021 BAD </s> -0.3010
+-0.6021 BAD OR -0.2430
+-0.3010 CHRISTMAS TREE 0.0000
+-0.3010 DAYS UNTIL 0.0000
+-0.6021 GOOD </s> -0.3010
+-0.6021 GOOD OR -0.2430
+-0.3010 HOW MANY 0.0000
+-0.3010 LIGHT UP 0.0000
+-0.6021 MANY DAYS 0.0000
+-0.6021 MANY PRESENTS 0.0000
+-0.6021 NAUGHTY </s> -0.3010
+-0.6021 NAUGHTY OR -0.2430
+-0.6021 NICE </s> -0.3010
+-0.6021 NICE OR -0.2430
+-0.3010 OH CHRISTMAS 0.0000
+-0.9031 OR BAD -0.1761
+-0.9031 OR GOOD -0.1761
+-0.9031 OR NAUGHTY -0.1761
+-0.9031 OR NICE -0.1761
+-0.3010 PRESENTS </s> -0.3010
+-0.3010 ROCK AROUND 0.0000
+-0.3010 TREE </s> -0.3010
+-0.3010 UNTIL </s> -0.3010
+-0.3010 UP </s> -0.3010
+
+\3-grams:
+-0.3010 <s> BAD OR
+-0.3010 <s> GOOD OR
+-0.3010 <s> HOW MANY
+-0.3010 <s> LIGHT UP
+-0.3010 <s> NAUGHTY OR
+-0.3010 <s> NICE OR
+-0.3010 <s> OH CHRISTMAS
+-0.3010 <s> ROCK AROUND
+-0.3010 BAD OR GOOD
+-0.3010 CHRISTMAS TREE </s>
+-0.3010 DAYS UNTIL </s>
+-0.3010 GOOD OR BAD
+-0.6021 HOW MANY DAYS
+-0.6021 HOW MANY PRESENTS
+-0.3010 LIGHT UP </s>
+-0.3010 MANY DAYS UNTIL
+-0.3010 MANY PRESENTS </s>
+-0.3010 NAUGHTY OR NICE
+-0.3010 NICE OR NAUGHTY
+-0.3010 OH CHRISTMAS TREE
+-0.3010 OR BAD </s>
+-0.3010 OR GOOD </s>
+-0.3010 OR NAUGHTY </s>
+-0.3010 OR NICE </s>
+-0.3010 ROCK AROUND </s>
+
+\end\
